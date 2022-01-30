@@ -58,6 +58,7 @@ let questions = [
 let question_count = 0;
 let points = 0;
 let vals = 'Test';
+let text = '';
 
 window.onload = function() {
   show(question_count);
