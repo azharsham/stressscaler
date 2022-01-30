@@ -33,8 +33,8 @@
           </p>
           <p class="userpoints" id="userpoints" style="padding: 10px;">
           </p>
-          <p class="userpoints" id="userpoints" style="padding: 10px;">Enter Your Mail Address to download certificate.
-          </p>
+          <!-- <p class="userpoints" id="userpoints" style="padding: 10px;">Enter Your Mail Address to download certificate.
+          </p> -->
         </div>
         <div class="content-image">
         </div>
@@ -50,22 +50,22 @@
       <input type="hidden" class="score" name="score" id="fscore">
       <input type="hidden" class="message" name="message" id="fvals">
 
-      <input required type="email" name="email" placeholder="Email" id="ename" minlength="3"
+      <input  type="hidden" name="email" placeholder="Email" id="ename" value="note"
         style="padding: 10px;border-radius: 20px;margin-bottom: 15px;">
 
       <input id="submitBtn" type="submit" class="btn-next" placeholder="Download Certificate"
-        value="Download Certificate" name="Download">
+        value="Click to Exit" name="Download" style="margin-left:23px">
       <input type="hidden" class="serial" name="serial" id="serial">
       <input type="hidden" class="date" id="date">
 
     </div>
   </form>
   <div class="break"></div> <!-- break -->
-  <div class="item">
+  <!-- <div class="item">
     <small style ="color: black;font-size: x-small;">Note :- By Clicking Download, You are accepting our
        <b>Privacy Policy</b> about Data Collection.<a href="../privacy policy.html">Click Here </a>to read about our policy.</small>
 
-  </div>
+  </div> -->
 </div>
 
 
@@ -138,7 +138,7 @@
   <!-- user info -->
   <script src="dist/js/userInfo.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.4.0/dist/pdf-lib.min.js"></script>
-  <script src="./FileSaver.js"></script>
+  <!-- <script src="./FileSaver.js"></script> -->
   <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
   <script src="./certificate.js"></script>
 
