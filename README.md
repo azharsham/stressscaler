@@ -1,2 +1,2 @@
-# stressscaler
-Simple Questionnaire to measure your scale
+# Quiz
+Questionnaire for Entrepreneur or Intraprenuer
