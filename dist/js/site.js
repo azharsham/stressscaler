@@ -82,7 +82,7 @@ function next() {
     points += 2;
     sessionStorage.setItem("points", points);
   }
-  if (user_answer == "sometimes"  && questions[question_count].type == 1 ) {
+  if (user_answer == "Sometimes"  && questions[question_count].type == 1 ) {
     points += 3;
     sessionStorage.setItem("points", points);
   }
@@ -105,7 +105,7 @@ function next() {
     points += 4;
     sessionStorage.setItem("points", points);
   }
-  if (user_answer == "sometimes"  && questions[question_count].type == 1 ) {
+  if (user_answer == "Sometimes"  && questions[question_count].type == 2 ) {
     points += 3;
     sessionStorage.setItem("points", points);
   }
@@ -138,7 +138,7 @@ function next() {
   }
 
  console.log(points);
-  if(points > 16)
+  if(points <= 15)
   {
   vals = "Zero Stress";
   sessionStorage.setItem("vals", vals);
